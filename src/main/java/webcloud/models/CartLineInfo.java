@@ -1,0 +1,13 @@
+package webcloud.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CartLineInfo {
+    private ProductInfo productInfo;
+    private int quantity;
+}
